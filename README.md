@@ -74,6 +74,7 @@ Several views are created to avoid modifying the tables directly:
 * Agents rated 4.5-5.0 have the highest number of orders (~75%), followed by agents rated 4.0-4.4 with 14%,  while all lower rated agents have less than 2% deliveries.
 * Agents with lower ratings (2.5–4.4) have noticeably higher average delivery times (~165–177 min), while highly rated agents (4.5–5.0) complete deliveries much faster (~115 min), showing a strong negative correlation between rating and delivery time.
 * The average agent rating stays fairly consistent around 4.58–4.68 regardless of the distance traveled, suggesting no strong correlation between distance and agent rating.
+* Agents with ratings less than 3.4, as well as non-rated agents, do not perform deliveries in Semi-Urban areas, indicating that lower-rated agents are assigned only to less challenging zones.
 
 ### Geospatial Patterns Insights
 
